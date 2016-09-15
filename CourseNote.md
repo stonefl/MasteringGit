@@ -50,12 +50,14 @@
 * Create an account on Nitrous.io
 
 ## Section 2.2 Verify your Git installation and version
+
 * verify presence of Git and its version through: `git-version`
 
 ## Section 2.3 Setting up globals
-`git config --user.name "your name"`
 
-`git config --user.email "your email"`
+`git config --global user.name "your name"`
+
+`git config --global user.email "your email"`
 
 To check all your settings:
 
