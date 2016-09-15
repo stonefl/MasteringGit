@@ -135,12 +135,22 @@ Undo changes
 
 ## Section 3.3 The Commit
 
-adit a file thorugh vim:
+edit a file thorugh vim:
 `vi README.md`
 `git status`
 `git commit -am "updated README.md"`
 `git log --pretty=fuller`
 `man git commit` to open git commit manual
 
-
+* Commit command modifiers:
+  * `-a`, `--all` stage modified/deleted files ignoring any not added
+  * `amend` replace or update the last commit you made
+  * `-o`, `--only`commit only from paths specified on the command line
+      * this disregards any staged files
+      * it is the default mode if a path is included in the command line
+  * `-v`, `verbose` provides a diff in the commit message template
+  * `-F "file"`, `--file="file"` use text from "file" as commit message
+  * `-m "msg"`, `--message="msg"` commit message
+       * multiple `-m` options are concatenated as separate paragraphs
+       
 
