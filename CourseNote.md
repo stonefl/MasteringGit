@@ -102,6 +102,11 @@ To check all your settings:
      * Modified
      * Deleted
      
+ * Options of `git add`
+    * `git add -A` stages All in entire working directory
+    * `git add -u` modified and deleted, without new
+    * `git add .` stages all in current directory
+     
  **Example**
  
  `touch changedFile`
@@ -117,7 +122,13 @@ make some changes
 `git status`
 `git add .`
 
+Undo changes
+`git reset`
 
-
+`touch gitAdd`
+`git status`
+`git add -u`
+`git add -A`
+`git status`
 
 
