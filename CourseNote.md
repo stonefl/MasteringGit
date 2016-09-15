@@ -133,4 +133,14 @@ Undo changes
 `git add -A`
 `git status`
 
+## Section 3.3 The Commit
+
+adit a file thorugh vim:
+`vi README.md`
+`git status`
+`git commit -am "updated README.md"`
+`git log --pretty=fuller`
+`man git commit` to open git commit manual
+
+
 
