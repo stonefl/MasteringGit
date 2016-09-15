@@ -67,3 +67,24 @@ To check all your settings:
 * Quickly create a file from the command line
   * Linux: `touch newFile`
   * Windows: `copy con newFile`
+
+## Section 3.1 Typical Git workflow
+
+* Write some code
+* Add new files
+* Commit changes with `git commit -am "commit message"`
+* Repeat
+
+**Status Options** `git status -sb`
+
+* `-s`: short format
+* `--long`: long format(**default**)
+* `-b`: includes branch and tracking, even when used with short format
+* `- u no`: hides untracked files in the directory
+* `-u normal`: includes untracked files in the directory(**default**)
+* `-u all`: adds all files in untracked directories (a bit verbose)
+* `--ignored`: include ignored files
+* `--column`: displays untracked files in columns
+* `-- no-column`: untracked files in a list (**default**)
+* `--porcelain`: primarily intended to be consumed by scripts
+* 
