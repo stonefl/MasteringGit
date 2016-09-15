@@ -110,8 +110,12 @@ To check all your settings:
  `git status`
  `git commit -m "Staging Exercise"`
 
-
-
+make some changes
+`echo CHANGES  >> changedFile`
+`rm deletedFile`
+`echo I am new > addedFile`
+`git status`
+`git add .`
 
 
 
