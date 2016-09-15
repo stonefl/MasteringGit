@@ -87,4 +87,33 @@ To check all your settings:
 * `--column`: displays untracked files in columns
 * `-- no-column`: untracked files in a list (**default**)
 * `--porcelain`: primarily intended to be consumed by scripts
-* 
+
+## Section 3.2 Setting the Stage
+
+**Staging process**
+
+* Changes are captured in the "index"
+   * Changes that will become part of the next commit
+   * Adding changes to the index is known as 'staging'
+
+* Command `git add`
+  * Stages all changes
+     * Added
+     * Modified
+     * Deleted
+     
+ **Example**
+ 
+ `touch changedFile`
+ `touch deletedFile`
+ `git add changedFile deletedFile`
+ `git status`
+ `git commit -m "Staging Exercise"`
+
+
+
+
+
+
+
+
